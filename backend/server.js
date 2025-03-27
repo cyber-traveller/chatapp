@@ -45,7 +45,7 @@ const PORT = process.env.PORT || 5000;
 
 // CORS configuration
 app.use(cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:3000",
+    origin: "https://0-chatapp.netlify.app",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
@@ -73,7 +73,7 @@ app.use(helmet());
 app.use((req, res, next) => {
     res.setHeader("Cross-Origin-Resource-Policy", "same-site");
     res.setHeader("Access-Control-Allow-Credentials", "true");
-    res.setHeader("Access-Control-Allow-Origin", process.env.FRONTEND_URL || "http://localhost:3000");
+    res.setHeader("Access-Control-Allow-Origin", "https://0-chatapp.netlify.app");
     res.setHeader("Access-Control-Expose-Headers", "Content-Length, Content-Type");
     res.setHeader("X-Content-Type-Options", "nosniff");
     res.setHeader("X-Frame-Options", "SAMEORIGIN");
