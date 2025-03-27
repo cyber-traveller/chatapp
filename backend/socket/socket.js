@@ -7,8 +7,9 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
 	cors: {
-		origin: ["https://0-chatapp.netlify.app", "http://localhost:3000"],
+		origin: ["https://0-chatapp.netlify.app", "http://localhost:3000", "https://mern-chat-backend-13ul.onrender.com"],
 		methods: ["GET", "POST"],
+		credentials: true
 	},
 });
 
