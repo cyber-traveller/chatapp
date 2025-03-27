@@ -2,7 +2,9 @@
 
 A modern real-time chat application built with the MERN stack (MongoDB, Express.js, React, Node.js) featuring a beautiful Material-UI interface and real-time messaging capabilities.
 
-![Demo App](https://i.ibb.co/fXmZdnz/Screenshot-10.png)
+![Demo App](https://github.com/user-attachments/assets/9aee0a85-70d4-490c-8e5c-40251acdf2c8)
+
+![Demo App](https://github.com/user-attachments/assets/8ce8002d-9aa8-4a4b-849d-bf2fd918ffdc)
 
 ## Features
 
